@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Jared Xiong Local and National News</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #0f9b0f, #a8e063);
+}
+
+/* Header */
+header{
+    background: linear-gradient(to right, #1b5e20, #66bb6a);
+    color:white;
+    padding:25px;
+    text-align:center;
+}
+
+header h1{
+    margin:0;
+    font-size:36px;
+}
+
+/* Navigation */
+nav{
+    background:#2e7d32;
+    padding:12px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+/* Layout */
+.container{
+    width:80%;
+    margin:30px auto;
+    display:flex;
+    gap:20px;
+}
+
+.main{
+    flex:3;
+}
+
+.sidebar{
+    flex:1;
+}
+
+/* News Sections */
+.section{
+    background:#e8f5e9;
+    padding:15px;
+    margin-bottom:20px;
+    border-left:8px solid #2e7d32;
+}
+
+.section h2{
+    margin-top:0;
+    background:#2e7d32;
+    color:white;
+    padding:8px;
+}
+
+.article{
+    background:#ffffff;
+    padding:10px;
+    margin-bottom:15px;
+    border:1px solid #c8e6c9;
+}
+
+/* Sidebar box */
+.reporter{
+    background:#2e7d32;
+    color:white;
+    padding:15px;
+}
+
+/* Footer */
+footer{
+    background:#1b5e20;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Jared Xiong Local and National News</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Portfolio</a>
+</nav>
+
+<div class="container">
+
+<div class="main">
+
+    <div class="section">
+        <h2>Local News</h2>
+
+        <div class="article">
+            <h3>Fire fighter rescue man from building</h3>
+            <p>Author, Date</p>
+            <p>This is the story text. This is the story text.</p>
+        </div>
+
+        <div class="article">
+            <h3>New Library to be build</h3>
+            <p>Author, Date</p>
+            <p>This is the story text. This is the story text.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>National News</h2>
+
+        <div class="article">
+            <h3>Snow storm is making travel difficult</h3>
+            <p>Author, Date</p>
+            <p>This is the story text. This is the story text.</p>
+        </div>
+
+        <div class="article">
+            <h3>Thousands are without power</h3>
+            <p>Author, Date</p>
+            <p>This is the story text. This is the story text.</p>
+        </div>
+    </div>
+
+</div>
+
+<div class="sidebar">
+    <div class="reporter">
+        <h3>Be a news reporter</h3>
+        <p>If you see news happening – Send us a Text.</p>
+    </div>
+</div>
+
+</div>
+
+<footer>
+    Footer information
+</footer>
+
+</body>
+</html>
